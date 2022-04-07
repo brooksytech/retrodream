@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mason/retrodream/retrodream-master/deps/inih/ini.c
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+ini.h
+/home/mason/retrodream/retrodream-master/deps/inih/ini.h
+stdlib.h
+-
+
+/home/mason/retrodream/retrodream-master/deps/inih/ini.h
+stdio.h
+-
+

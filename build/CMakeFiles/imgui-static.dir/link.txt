@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimgui-static.a  CMakeFiles/imgui-static.dir/deps/cimgui/imgui/imgui.cpp.o CMakeFiles/imgui-static.dir/deps/cimgui/imgui/imgui_demo.cpp.o CMakeFiles/imgui-static.dir/deps/cimgui/imgui/imgui_draw.cpp.o CMakeFiles/imgui-static.dir/deps/cimgui/cimgui/cimgui.cpp.o CMakeFiles/imgui-static.dir/deps/cimgui/cimgui/drawList.cpp.o CMakeFiles/imgui-static.dir/deps/cimgui/cimgui/fontAtlas.cpp.o CMakeFiles/imgui-static.dir/deps/cimgui/cimgui/listClipper.cpp.o
+/usr/bin/ranlib libimgui-static.a

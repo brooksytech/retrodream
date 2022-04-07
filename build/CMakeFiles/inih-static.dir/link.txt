@@ -1,0 +1,2 @@
+/usr/bin/ar qc libinih-static.a  CMakeFiles/inih-static.dir/deps/inih/ini.c.o
+/usr/bin/ranlib libinih-static.a

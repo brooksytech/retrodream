@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG  -rdynamic CMakeFiles/test_detail.dir/tests/test_detail.c.o  -o test_detail  libcapstone.a 

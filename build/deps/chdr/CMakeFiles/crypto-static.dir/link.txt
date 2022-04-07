@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcrypto-static.a  CMakeFiles/crypto-static.dir/deps/crypto/md5.c.o CMakeFiles/crypto-static.dir/deps/crypto/sha1.c.o
+/usr/bin/ranlib libcrypto-static.a

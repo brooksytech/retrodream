@@ -1,0 +1,684 @@
+Determining if the function strnstr exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71b00/fast && /usr/bin/make -f CMakeFiles/cmTC_71b00.dir/build.make CMakeFiles/cmTC_71b00.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71b00.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strnstr   -o CMakeFiles/cmTC_71b00.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_71b00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71b00.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strnstr    -rdynamic CMakeFiles/cmTC_71b00.dir/CheckFunctionExists.c.o  -o cmTC_71b00 
+/usr/bin/ld: CMakeFiles/cmTC_71b00.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strnstr'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_71b00.dir/build.make:87: cmTC_71b00] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_71b00/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07852/fast && /usr/bin/make -f CMakeFiles/cmTC_07852.dir/build.make CMakeFiles/cmTC_07852.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07852.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_07852.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: ‘-mpreferred-stack-boundary=2’ is not between 3 and 12
+make[1]: *** [CMakeFiles/cmTC_07852.dir/build.make:66: CMakeFiles/cmTC_07852.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_07852/fast] Error 2
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e0e1/fast && /usr/bin/make -f CMakeFiles/cmTC_7e0e1.dir/build.make CMakeFiles/cmTC_7e0e1.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e0e1.dir/src.c.o
+/usr/bin/cc   -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTC_7e0e1.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+make[1]: *** [CMakeFiles/cmTC_7e0e1.dir/build.make:66: CMakeFiles/cmTC_7e0e1.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7e0e1/fast] Error 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ac48/fast && /usr/bin/make -f CMakeFiles/cmTC_4ac48.dir/build.make CMakeFiles/cmTC_4ac48.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ac48.dir/src.c.o
+/usr/bin/cc   -DHAVE_ALTIVEC -maltivec   -o CMakeFiles/cmTC_4ac48.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+make[1]: *** [CMakeFiles/cmTC_4ac48.dir/build.make:66: CMakeFiles/cmTC_4ac48.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4ac48/fast] Error 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29dda/fast && /usr/bin/make -f CMakeFiles/cmTC_29dda.dir/build.make CMakeFiles/cmTC_29dda.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29dda.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_29dda.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_29dda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29dda.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcpy    -rdynamic CMakeFiles/cmTC_29dda.dir/CheckFunctionExists.c.o  -o cmTC_29dda 
+/usr/bin/ld: CMakeFiles/cmTC_29dda.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_29dda.dir/build.make:87: cmTC_29dda] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_29dda/fast] Error 2
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e3f5/fast && /usr/bin/make -f CMakeFiles/cmTC_4e3f5.dir/build.make CMakeFiles/cmTC_4e3f5.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e3f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_4e3f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4e3f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e3f5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcat    -rdynamic CMakeFiles/cmTC_4e3f5.dir/CheckFunctionExists.c.o  -o cmTC_4e3f5 
+/usr/bin/ld: CMakeFiles/cmTC_4e3f5.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_4e3f5.dir/build.make:87: cmTC_4e3f5] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4e3f5/fast] Error 2
+
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ff04/fast && /usr/bin/make -f CMakeFiles/cmTC_0ff04.dir/build.make CMakeFiles/cmTC_0ff04.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ff04.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTC_0ff04.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ff04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ff04.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strrev    -rdynamic CMakeFiles/cmTC_0ff04.dir/CheckFunctionExists.c.o  -o cmTC_0ff04 
+/usr/bin/ld: CMakeFiles/cmTC_0ff04.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_strrev'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0ff04.dir/build.make:87: cmTC_0ff04] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0ff04/fast] Error 2
+
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_37390/fast && /usr/bin/make -f CMakeFiles/cmTC_37390.dir/build.make CMakeFiles/cmTC_37390.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37390.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTC_37390.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_37390
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37390.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strupr    -rdynamic CMakeFiles/cmTC_37390.dir/CheckFunctionExists.c.o  -o cmTC_37390 
+/usr/bin/ld: CMakeFiles/cmTC_37390.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_strupr'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_37390.dir/build.make:87: cmTC_37390] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_37390/fast] Error 2
+
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5fc0/fast && /usr/bin/make -f CMakeFiles/cmTC_d5fc0.dir/build.make CMakeFiles/cmTC_d5fc0.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5fc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTC_d5fc0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5fc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5fc0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strlwr    -rdynamic CMakeFiles/cmTC_d5fc0.dir/CheckFunctionExists.c.o  -o cmTC_d5fc0 
+/usr/bin/ld: CMakeFiles/cmTC_d5fc0.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_strlwr'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d5fc0.dir/build.make:87: cmTC_d5fc0] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d5fc0/fast] Error 2
+
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5fc8d/fast && /usr/bin/make -f CMakeFiles/cmTC_5fc8d.dir/build.make CMakeFiles/cmTC_5fc8d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fc8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTC_5fc8d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5fc8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fc8d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=itoa    -rdynamic CMakeFiles/cmTC_5fc8d.dir/CheckFunctionExists.c.o  -o cmTC_5fc8d 
+/usr/bin/ld: CMakeFiles/cmTC_5fc8d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `itoa'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5fc8d.dir/build.make:87: cmTC_5fc8d] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5fc8d/fast] Error 2
+
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_744d6/fast && /usr/bin/make -f CMakeFiles/cmTC_744d6.dir/build.make CMakeFiles/cmTC_744d6.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_744d6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTC_744d6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_744d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_744d6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ltoa    -rdynamic CMakeFiles/cmTC_744d6.dir/CheckFunctionExists.c.o  -o cmTC_744d6 
+/usr/bin/ld: CMakeFiles/cmTC_744d6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_ltoa'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_744d6.dir/build.make:87: cmTC_744d6] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_744d6/fast] Error 2
+
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bcdd2/fast && /usr/bin/make -f CMakeFiles/cmTC_bcdd2.dir/build.make CMakeFiles/cmTC_bcdd2.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcdd2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTC_bcdd2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bcdd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcdd2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_uitoa    -rdynamic CMakeFiles/cmTC_bcdd2.dir/CheckFunctionExists.c.o  -o cmTC_bcdd2 
+/usr/bin/ld: CMakeFiles/cmTC_bcdd2.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_uitoa'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_bcdd2.dir/build.make:87: cmTC_bcdd2] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bcdd2/fast] Error 2
+
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d251/fast && /usr/bin/make -f CMakeFiles/cmTC_0d251.dir/build.make CMakeFiles/cmTC_0d251.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d251.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTC_0d251.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0d251
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d251.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ultoa    -rdynamic CMakeFiles/cmTC_0d251.dir/CheckFunctionExists.c.o  -o cmTC_0d251 
+/usr/bin/ld: CMakeFiles/cmTC_0d251.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_ultoa'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0d251.dir/build.make:87: cmTC_0d251] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0d251/fast] Error 2
+
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a3a47/fast && /usr/bin/make -f CMakeFiles/cmTC_a3a47.dir/build.make CMakeFiles/cmTC_a3a47.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3a47.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTC_a3a47.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a3a47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3a47.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_i64toa    -rdynamic CMakeFiles/cmTC_a3a47.dir/CheckFunctionExists.c.o  -o cmTC_a3a47 
+/usr/bin/ld: CMakeFiles/cmTC_a3a47.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_i64toa'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a3a47.dir/build.make:87: cmTC_a3a47] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a3a47/fast] Error 2
+
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_917e4/fast && /usr/bin/make -f CMakeFiles/cmTC_917e4.dir/build.make CMakeFiles/cmTC_917e4.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_917e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTC_917e4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_917e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_917e4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_ui64toa    -rdynamic CMakeFiles/cmTC_917e4.dir/CheckFunctionExists.c.o  -o cmTC_917e4 
+/usr/bin/ld: CMakeFiles/cmTC_917e4.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_ui64toa'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_917e4.dir/build.make:87: cmTC_917e4] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_917e4/fast] Error 2
+
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ffd8/fast && /usr/bin/make -f CMakeFiles/cmTC_7ffd8.dir/build.make CMakeFiles/cmTC_7ffd8.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ffd8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_7ffd8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ffd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ffd8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_stricmp    -rdynamic CMakeFiles/cmTC_7ffd8.dir/CheckFunctionExists.c.o  -o cmTC_7ffd8 
+/usr/bin/ld: CMakeFiles/cmTC_7ffd8.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7ffd8.dir/build.make:87: cmTC_7ffd8] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7ffd8/fast] Error 2
+
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ff22b/fast && /usr/bin/make -f CMakeFiles/cmTC_ff22b.dir/build.make CMakeFiles/cmTC_ff22b.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff22b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_ff22b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff22b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff22b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strnicmp    -rdynamic CMakeFiles/cmTC_ff22b.dir/CheckFunctionExists.c.o  -o cmTC_ff22b 
+/usr/bin/ld: CMakeFiles/cmTC_ff22b.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_strnicmp'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ff22b.dir/build.make:87: cmTC_ff22b] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ff22b/fast] Error 2
+
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a7e7/fast && /usr/bin/make -f CMakeFiles/cmTC_7a7e7.dir/build.make CMakeFiles/cmTC_7a7e7.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a7e7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_7a7e7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a7e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a7e7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sysctlbyname    -rdynamic CMakeFiles/cmTC_7a7e7.dir/CheckFunctionExists.c.o  -o cmTC_7a7e7 
+/usr/bin/ld: CMakeFiles/cmTC_7a7e7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sysctlbyname'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7a7e7.dir/build.make:87: cmTC_7a7e7] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7a7e7/fast] Error 2
+
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0537/fast && /usr/bin/make -f CMakeFiles/cmTC_a0537.dir/build.make CMakeFiles/cmTC_a0537.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0537.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_a0537.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0537
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0537.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=iconv_open    -rdynamic CMakeFiles/cmTC_a0537.dir/CheckFunctionExists.c.o  -o cmTC_a0537  -liconv 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a0537.dir/build.make:87: cmTC_a0537] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a0537/fast] Error 2
+
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5cc44/fast && /usr/bin/make -f CMakeFiles/cmTC_5cc44.dir/build.make CMakeFiles/cmTC_5cc44.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cc44.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_5cc44.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘alloca’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5cc44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cc44.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=alloca    -rdynamic CMakeFiles/cmTC_5cc44.dir/CheckFunctionExists.c.o  -o cmTC_5cc44 
+/usr/bin/ld: CMakeFiles/cmTC_5cc44.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x23): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5cc44.dir/build.make:87: cmTC_5cc44] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5cc44/fast] Error 2
+
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dda59/fast && /usr/bin/make -f CMakeFiles/cmTC_dda59.dir/build.make CMakeFiles/cmTC_dda59.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dda59.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_dda59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dda59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dda59.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_dda59.dir/CheckFunctionExists.c.o  -o cmTC_dda59 
+/usr/bin/ld: CMakeFiles/cmTC_dda59.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_dda59.dir/build.make:87: cmTC_dda59] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dda59/fast] Error 2
+
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1830d/fast && /usr/bin/make -f CMakeFiles/cmTC_1830d.dir/build.make CMakeFiles/cmTC_1830d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1830d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1830d.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: audio/audiolib.h: No such file or directory
+    1 | #include <audio/audiolib.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1830d.dir/build.make:66: CMakeFiles/cmTC_1830d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1830d/fast] Error 2
+
+
+
+Determining if the include file samplerate.h exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_66fd1/fast && /usr/bin/make -f CMakeFiles/cmTC_66fd1.dir/build.make CMakeFiles/cmTC_66fd1.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66fd1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_66fd1.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: samplerate.h: No such file or directory
+    1 | #include <samplerate.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_66fd1.dir/build.make:66: CMakeFiles/cmTC_66fd1.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_66fd1/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_RPI failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16915/fast && /usr/bin/make -f CMakeFiles/cmTC_16915.dir/build.make CMakeFiles/cmTC_16915.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16915.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_RPI  -I/opt/vc/include/interface/vmcs_host/linux/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include  -L/opt/vc/lib   -o CMakeFiles/cmTC_16915.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: bcm_host.h: No such file or directory
+    2 |         #include <bcm_host.h>
+      |                  ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_16915.dir/build.make:66: CMakeFiles/cmTC_16915.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_16915/fast] Error 2
+
+
+Source file was:
+
+        #include <bcm_host.h>
+        int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_VDK failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50a53/fast && /usr/bin/make -f CMakeFiles/cmTC_50a53.dir/build.make CMakeFiles/cmTC_50a53.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50a53.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_VIVANTE_VDK   -o CMakeFiles/cmTC_50a53.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: gc_vdk.h: No such file or directory
+    2 |         #include <gc_vdk.h>
+      |                  ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_50a53.dir/build.make:66: CMakeFiles/cmTC_50a53.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_50a53/fast] Error 2
+
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2f11/fast && /usr/bin/make -f CMakeFiles/cmTC_d2f11.dir/build.make CMakeFiles/cmTC_d2f11.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2f11.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_VIVANTE_EGL_FB   -o CMakeFiles/cmTC_d2f11.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:4:18: fatal error: EGL/eglvivante.h: No such file or directory
+    4 |         #include <EGL/eglvivante.h>
+      |                  ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d2f11.dir/build.make:66: CMakeFiles/cmTC_d2f11.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d2f11/fast] Error 2
+
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) {}
+Determining if the include file fcitx/frontend.h exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_baf3a/fast && /usr/bin/make -f CMakeFiles/cmTC_baf3a.dir/build.make CMakeFiles/cmTC_baf3a.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baf3a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_baf3a.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: fcitx/frontend.h: No such file or directory
+    1 | #include <fcitx/frontend.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_baf3a.dir/build.make:66: CMakeFiles/cmTC_baf3a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_baf3a/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_INPUT_TSLIB failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e41fa/fast && /usr/bin/make -f CMakeFiles/cmTC_e41fa.dir/build.make CMakeFiles/cmTC_e41fa.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e41fa.dir/src.c.o
+/usr/bin/cc   -DHAVE_INPUT_TSLIB   -o CMakeFiles/cmTC_e41fa.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: tslib.h: No such file or directory
+    2 |         #include "tslib.h"
+      |                  ^~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e41fa.dir/build.make:66: CMakeFiles/cmTC_e41fa.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e41fa/fast] Error 2
+
+
+Source file was:
+
+        #include "tslib.h"
+        int main(int argc, char** argv) { }
+Determining if the function hid_init exists in the usbhid failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a97a/fast && /usr/bin/make -f CMakeFiles/cmTC_1a97a.dir/build.make CMakeFiles/cmTC_1a97a.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a97a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_1a97a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1a97a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a97a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=hid_init    -rdynamic CMakeFiles/cmTC_1a97a.dir/CheckFunctionExists.c.o  -o cmTC_1a97a  -lusbhid 
+/usr/bin/ld: cannot find -lusbhid
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1a97a.dir/build.make:87: cmTC_1a97a] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1a97a/fast] Error 2
+
+
+
+Determining if the include file usb.h exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82a35/fast && /usr/bin/make -f CMakeFiles/cmTC_82a35.dir/build.make CMakeFiles/cmTC_82a35.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82a35.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_82a35.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: usb.h: No such file or directory
+    1 | #include <usb.h>
+      |          ^~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_82a35.dir/build.make:66: CMakeFiles/cmTC_82a35.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_82a35/fast] Error 2
+
+
+
+Determining if the include file libusb.h exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_683ce/fast && /usr/bin/make -f CMakeFiles/cmTC_683ce.dir/build.make CMakeFiles/cmTC_683ce.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_683ce.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_683ce.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libusb.h: No such file or directory
+    1 | #include <libusb.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_683ce.dir/build.make:66: CMakeFiles/cmTC_683ce.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_683ce/fast] Error 2
+
+
+
+Determining if the function hid_init exists in the usb failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96771/fast && /usr/bin/make -f CMakeFiles/cmTC_96771.dir/build.make CMakeFiles/cmTC_96771.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96771.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_96771.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_96771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96771.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=hid_init    -rdynamic CMakeFiles/cmTC_96771.dir/CheckFunctionExists.c.o  -o cmTC_96771  -lusb 
+/usr/bin/ld: cannot find -lusb
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_96771.dir/build.make:87: cmTC_96771] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_96771/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_USBHID failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30cc7/fast && /usr/bin/make -f CMakeFiles/cmTC_30cc7.dir/build.make CMakeFiles/cmTC_30cc7.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30cc7.dir/src.c.o
+/usr/bin/cc   -DHAVE_USBHID   -o CMakeFiles/cmTC_30cc7.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:10:19: fatal error: dev/usb/usb.h: No such file or directory
+   10 |         # include <dev/usb/usb.h>
+      |                   ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_30cc7.dir/build.make:66: CMakeFiles/cmTC_30cc7.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_30cc7/fast] Error 2
+
+
+Source file was:
+
+       #include <sys/types.h>
+        #if defined(HAVE_USB_H)
+        #include <usb.h>
+        #endif
+        #ifdef __DragonFly__
+        # include <bus/usb/usb.h>
+        # include <bus/usb/usbhid.h>
+        #else
+        # include <dev/usb/usb.h>
+        # include <dev/usb/usbhid.h>
+        #endif
+        #if defined(HAVE_USBHID_H)
+        #include <usbhid.h>
+        #elif defined(HAVE_LIBUSB_H)
+        #include <libusb.h>
+        #elif defined(HAVE_LIBUSBHID_H)
+        #include <libusbhid.h>
+        #endif
+        int main(int argc, char **argv) {
+          struct report_desc *repdesc;
+          struct usb_ctl_report *repbuf;
+          hid_kind_t hidkind;
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8be0f/fast && /usr/bin/make -f CMakeFiles/cmTC_8be0f.dir/build.make CMakeFiles/cmTC_8be0f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8be0f.dir/src.c.o
+/usr/bin/cc   -DHAVE_PTHREAD_NP_H   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_8be0f.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:3:20: fatal error: pthread_np.h: No such file or directory
+    3 |           #include <pthread_np.h>
+      |                    ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_8be0f.dir/build.make:66: CMakeFiles/cmTC_8be0f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8be0f/fast] Error 2
+
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9eae/fast && /usr/bin/make -f CMakeFiles/cmTC_b9eae.dir/build.make CMakeFiles/cmTC_b9eae.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9eae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_set_name_np   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_b9eae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9eae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9eae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_set_name_np   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_b9eae.dir/CheckFunctionExists.c.o  -o cmTC_b9eae 
+/usr/bin/ld: CMakeFiles/cmTC_b9eae.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `pthread_set_name_np'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b9eae.dir/build.make:87: cmTC_b9eae] Error 1
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b9eae/fast] Error 2
+
+
+

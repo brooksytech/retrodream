@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+a39d9a94e39c4c27a207f56e72f204d3 CMakeFiles/format
+d20e846cf4e9e60c97846b6dd8921979 deps/sdl2/CMakeFiles/uninstall
+8a8a00082f58560c9476d22fcd6d068d deps/sdl2/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h
+11c189e10921ff5c04187b7fd518f653 deps/sdl2/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
+ddc57beebe0961a5488d1649a3673a0c deps/sdl2/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h
+365acf4f2b639a00281c730e9e49a3ae deps/sdl2/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
+379de395332d7a8a93986ccd9543fd55 deps/sdl2/wayland-generated-protocols/wayland-client-protocol.h
+73bc6a0d7f526ab46a7dbe8f429e0826 deps/sdl2/wayland-generated-protocols/wayland-protocol.c

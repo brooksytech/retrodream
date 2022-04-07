@@ -1,0 +1,2755 @@
+The system is: Linux - 5.4.0-105-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/mason/retrodream/retrodream-master/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/mason/retrodream/retrodream-master/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22c12/fast && /usr/bin/make -f CMakeFiles/cmTC_22c12.dir/build.make CMakeFiles/cmTC_22c12.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22c12.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_22c12.dir/testCCompiler.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_22c12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22c12.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_22c12.dir/testCCompiler.c.o  -o cmTC_22c12 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48196/fast && /usr/bin/make -f CMakeFiles/cmTC_48196.dir/build.make CMakeFiles/cmTC_48196.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDfhwYC.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o /tmp/ccDfhwYC.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_48196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48196.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o  -o cmTC_48196 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48196' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0tWVd1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_48196 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48196' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_48196/fast && /usr/bin/make -f CMakeFiles/cmTC_48196.dir/build.make CMakeFiles/cmTC_48196.dir/build]
+  ignore line: [make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDfhwYC.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o /tmp/ccDfhwYC.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_48196]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48196.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o  -o cmTC_48196 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48196' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0tWVd1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_48196 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0tWVd1.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_48196] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_48196.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5806c/fast && /usr/bin/make -f CMakeFiles/cmTC_5806c.dir/build.make CMakeFiles/cmTC_5806c.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5806c.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_5806c.dir/testCXXCompiler.cxx.o -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5806c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5806c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5806c.dir/testCXXCompiler.cxx.o  -o cmTC_5806c 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f038/fast && /usr/bin/make -f CMakeFiles/cmTC_5f038.dir/build.make CMakeFiles/cmTC_5f038.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSrxjYz.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSrxjYz.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_5f038
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f038.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5f038 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5f038' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cckO96q0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f038 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5f038' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_5f038/fast && /usr/bin/make -f CMakeFiles/cmTC_5f038.dir/build.make CMakeFiles/cmTC_5f038.dir/build]
+  ignore line: [make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSrxjYz.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSrxjYz.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_5f038]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f038.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5f038 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5f038' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cckO96q0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f038 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckO96q0.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5f038] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_5f038.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da1f5/fast && /usr/bin/make -f CMakeFiles/cmTC_da1f5.dir/build.make CMakeFiles/cmTC_da1f5.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da1f5.dir/HAVE_STRINGS_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_da1f5.dir/HAVE_STRINGS_H.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_da1f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da1f5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_da1f5.dir/HAVE_STRINGS_H.c.o  -o cmTC_da1f5 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df2c3/fast && /usr/bin/make -f CMakeFiles/cmTC_df2c3.dir/build.make CMakeFiles/cmTC_df2c3.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df2c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_df2c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+Linking C executable cmTC_df2c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df2c3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp    -rdynamic CMakeFiles/cmTC_df2c3.dir/CheckFunctionExists.c.o  -o cmTC_df2c3 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strnlen exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4114b/fast && /usr/bin/make -f CMakeFiles/cmTC_4114b.dir/build.make CMakeFiles/cmTC_4114b.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4114b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strnlen   -o CMakeFiles/cmTC_4114b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strnlen’; expected ‘long unsigned int(const char *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4114b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4114b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strnlen    -rdynamic CMakeFiles/cmTC_4114b.dir/CheckFunctionExists.c.o  -o cmTC_4114b 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c886d/fast && /usr/bin/make -f CMakeFiles/cmTC_c886d.dir/build.make CMakeFiles/cmTC_c886d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c886d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c886d.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c886d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c886d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c886d.dir/CheckIncludeFile.c.o  -o cmTC_c886d 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_32758/fast && /usr/bin/make -f CMakeFiles/cmTC_32758.dir/build.make CMakeFiles/cmTC_32758.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32758.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_32758.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_32758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32758.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_32758.dir/CheckIncludeFile.c.o  -o cmTC_32758 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b89e/fast && /usr/bin/make -f CMakeFiles/cmTC_3b89e.dir/build.make CMakeFiles/cmTC_3b89e.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b89e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3b89e.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3b89e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b89e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3b89e.dir/CheckIncludeFile.c.o  -o cmTC_3b89e 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_feac2/fast && /usr/bin/make -f CMakeFiles/cmTC_feac2.dir/build.make CMakeFiles/cmTC_feac2.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feac2.dir/OFF64_T.c.o
+/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1   -o CMakeFiles/cmTC_feac2.dir/OFF64_T.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_feac2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feac2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_feac2.dir/OFF64_T.c.o  -o cmTC_feac2 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6114f/fast && /usr/bin/make -f CMakeFiles/cmTC_6114f.dir/build.make CMakeFiles/cmTC_6114f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6114f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_6114f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6114f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6114f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko    -rdynamic CMakeFiles/cmTC_6114f.dir/CheckFunctionExists.c.o  -o cmTC_6114f 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ae72/fast && /usr/bin/make -f CMakeFiles/cmTC_8ae72.dir/build.make CMakeFiles/cmTC_8ae72.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ae72.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ae72.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8ae72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ae72.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ae72.dir/CheckIncludeFile.c.o  -o cmTC_8ae72 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4123b/fast && /usr/bin/make -f CMakeFiles/cmTC_4123b.dir/build.make CMakeFiles/cmTC_4123b.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4123b.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WALL   -Wall -o CMakeFiles/cmTC_4123b.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4123b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4123b.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WALL    -rdynamic CMakeFiles/cmTC_4123b.dir/src.c.o  -o cmTC_4123b 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d65ea/fast && /usr/bin/make -f CMakeFiles/cmTC_d65ea.dir/build.make CMakeFiles/cmTC_d65ea.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d65ea.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT   -Wdeclaration-after-statement -o CMakeFiles/cmTC_d65ea.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d65ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d65ea.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT    -rdynamic CMakeFiles/cmTC_d65ea.dir/src.c.o  -o cmTC_d65ea 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54cc4/fast && /usr/bin/make -f CMakeFiles/cmTC_54cc4.dir/build.make CMakeFiles/cmTC_54cc4.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54cc4.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT   -Werror=declaration-after-statement -o CMakeFiles/cmTC_54cc4.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_54cc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54cc4.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT    -rdynamic CMakeFiles/cmTC_54cc4.dir/src.c.o  -o cmTC_54cc4 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ee34/fast && /usr/bin/make -f CMakeFiles/cmTC_0ee34.dir/build.make CMakeFiles/cmTC_0ee34.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ee34.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_ATOMICS   -o CMakeFiles/cmTC_0ee34.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0ee34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ee34.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_ATOMICS    -rdynamic CMakeFiles/cmTC_0ee34.dir/src.c.o  -o cmTC_0ee34 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40271/fast && /usr/bin/make -f CMakeFiles/cmTC_40271.dir/build.make CMakeFiles/cmTC_40271.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40271.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror   -o CMakeFiles/cmTC_40271.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_40271
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40271.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror    -rdynamic CMakeFiles/cmTC_40271.dir/src.c.o  -o cmTC_40271 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1069f/fast && /usr/bin/make -f CMakeFiles/cmTC_1069f.dir/build.make CMakeFiles/cmTC_1069f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1069f.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WSHADOW   -Wshadow -o CMakeFiles/cmTC_1069f.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1069f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1069f.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WSHADOW    -rdynamic CMakeFiles/cmTC_1069f.dir/src.c.o  -o cmTC_1069f 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa4c7/fast && /usr/bin/make -f CMakeFiles/cmTC_aa4c7.dir/build.make CMakeFiles/cmTC_aa4c7.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa4c7.dir/src.c.o
+/usr/bin/cc   -DHAVE_NO_UNDEFINED -Wl,--no-undefined   -o CMakeFiles/cmTC_aa4c7.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aa4c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa4c7.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_NO_UNDEFINED -Wl,--no-undefined    -rdynamic CMakeFiles/cmTC_aa4c7.dir/src.c.o  -o cmTC_aa4c7 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50e84/fast && /usr/bin/make -f CMakeFiles/cmTC_50e84.dir/build.make CMakeFiles/cmTC_50e84.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50e84.dir/src.c.o
+/usr/bin/cc   -DHAVE_MMX -mmmx   -o CMakeFiles/cmTC_50e84.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_50e84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e84.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_MMX -mmmx    -rdynamic CMakeFiles/cmTC_50e84.dir/src.c.o  -o cmTC_50e84 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d83da/fast && /usr/bin/make -f CMakeFiles/cmTC_d83da.dir/build.make CMakeFiles/cmTC_d83da.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d83da.dir/src.c.o
+/usr/bin/cc   -DHAVE_3DNOW -m3dnow   -o CMakeFiles/cmTC_d83da.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d83da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d83da.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_3DNOW -m3dnow    -rdynamic CMakeFiles/cmTC_d83da.dir/src.c.o  -o cmTC_d83da 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab2ba/fast && /usr/bin/make -f CMakeFiles/cmTC_ab2ba.dir/build.make CMakeFiles/cmTC_ab2ba.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab2ba.dir/src.c.o
+/usr/bin/cc   -DHAVE_SSE -msse   -o CMakeFiles/cmTC_ab2ba.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ab2ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab2ba.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SSE -msse    -rdynamic CMakeFiles/cmTC_ab2ba.dir/src.c.o  -o cmTC_ab2ba 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22b42/fast && /usr/bin/make -f CMakeFiles/cmTC_22b42.dir/build.make CMakeFiles/cmTC_22b42.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22b42.dir/src.c.o
+/usr/bin/cc   -DHAVE_SSE2 -msse2   -o CMakeFiles/cmTC_22b42.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_22b42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22b42.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SSE2 -msse2    -rdynamic CMakeFiles/cmTC_22b42.dir/src.c.o  -o cmTC_22b42 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE3 succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ed77f/fast && /usr/bin/make -f CMakeFiles/cmTC_ed77f.dir/build.make CMakeFiles/cmTC_ed77f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed77f.dir/src.c.o
+/usr/bin/cc   -DHAVE_SSE3 -msse3   -o CMakeFiles/cmTC_ed77f.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ed77f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed77f.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SSE3 -msse3    -rdynamic CMakeFiles/cmTC_ed77f.dir/src.c.o  -o cmTC_ed77f 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d572d/fast && /usr/bin/make -f CMakeFiles/cmTC_d572d.dir/build.make CMakeFiles/cmTC_d572d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d572d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d572d.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d572d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d572d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d572d.dir/CheckIncludeFile.c.o  -o cmTC_d572d 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7616d/fast && /usr/bin/make -f CMakeFiles/cmTC_7616d.dir/build.make CMakeFiles/cmTC_7616d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7616d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7616d.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7616d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7616d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7616d.dir/CheckIncludeFile.c.o  -o cmTC_7616d 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42cca/fast && /usr/bin/make -f CMakeFiles/cmTC_42cca.dir/build.make CMakeFiles/cmTC_42cca.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42cca.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_42cca.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_42cca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42cca.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_42cca.dir/CheckIncludeFile.c.o  -o cmTC_42cca 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6fb10/fast && /usr/bin/make -f CMakeFiles/cmTC_6fb10.dir/build.make CMakeFiles/cmTC_6fb10.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6fb10.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6fb10.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6fb10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fb10.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6fb10.dir/CheckIncludeFile.c.o  -o cmTC_6fb10 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bdcad/fast && /usr/bin/make -f CMakeFiles/cmTC_bdcad.dir/build.make CMakeFiles/cmTC_bdcad.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdcad.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bdcad.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bdcad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdcad.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bdcad.dir/CheckIncludeFile.c.o  -o cmTC_bdcad 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8839d/fast && /usr/bin/make -f CMakeFiles/cmTC_8839d.dir/build.make CMakeFiles/cmTC_8839d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8839d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8839d.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8839d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8839d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8839d.dir/CheckIncludeFile.c.o  -o cmTC_8839d 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_23d68/fast && /usr/bin/make -f CMakeFiles/cmTC_23d68.dir/build.make CMakeFiles/cmTC_23d68.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23d68.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_23d68.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_23d68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d68.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_23d68.dir/CheckIncludeFile.c.o  -o cmTC_23d68 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7fd67/fast && /usr/bin/make -f CMakeFiles/cmTC_7fd67.dir/build.make CMakeFiles/cmTC_7fd67.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fd67.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7fd67.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7fd67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fd67.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7fd67.dir/CheckIncludeFile.c.o  -o cmTC_7fd67 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac089/fast && /usr/bin/make -f CMakeFiles/cmTC_ac089.dir/build.make CMakeFiles/cmTC_ac089.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac089.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ac089.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ac089
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac089.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ac089.dir/CheckIncludeFile.c.o  -o cmTC_ac089 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89be7/fast && /usr/bin/make -f CMakeFiles/cmTC_89be7.dir/build.make CMakeFiles/cmTC_89be7.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89be7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_89be7.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_89be7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89be7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_89be7.dir/CheckIncludeFile.c.o  -o cmTC_89be7 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_860cb/fast && /usr/bin/make -f CMakeFiles/cmTC_860cb.dir/build.make CMakeFiles/cmTC_860cb.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_860cb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_860cb.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_860cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_860cb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_860cb.dir/CheckIncludeFile.c.o  -o cmTC_860cb 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81577/fast && /usr/bin/make -f CMakeFiles/cmTC_81577.dir/build.make CMakeFiles/cmTC_81577.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81577.dir/STDC_HEADERS.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_81577.dir/STDC_HEADERS.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_81577
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81577.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_81577.dir/STDC_HEADERS.c.o  -o cmTC_81577 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9843/fast && /usr/bin/make -f CMakeFiles/cmTC_b9843.dir/build.make CMakeFiles/cmTC_b9843.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9843.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b9843.dir/SIZEOF_SIZE_T.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_b9843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9843.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b9843.dir/SIZEOF_SIZE_T.c.o  -o cmTC_b9843 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9736/fast && /usr/bin/make -f CMakeFiles/cmTC_d9736.dir/build.make CMakeFiles/cmTC_d9736.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9736.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d9736.dir/CheckSymbolExists.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d9736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9736.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d9736.dir/CheckSymbolExists.c.o  -o cmTC_d9736 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56529/fast && /usr/bin/make -f CMakeFiles/cmTC_56529.dir/build.make CMakeFiles/cmTC_56529.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56529.dir/src.c.o
+/usr/bin/cc   -DHAVE_MPROTECT   -o CMakeFiles/cmTC_56529.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_56529
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56529.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_MPROTECT    -rdynamic CMakeFiles/cmTC_56529.dir/src.c.o  -o cmTC_56529 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6a77c/fast && /usr/bin/make -f CMakeFiles/cmTC_6a77c.dir/build.make CMakeFiles/cmTC_6a77c.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a77c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtod   -o CMakeFiles/cmTC_6a77c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a77c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a77c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtod    -rdynamic CMakeFiles/cmTC_6a77c.dir/CheckFunctionExists.c.o  -o cmTC_6a77c 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31147/fast && /usr/bin/make -f CMakeFiles/cmTC_31147.dir/build.make CMakeFiles/cmTC_31147.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31147.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_31147.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_31147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31147.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc    -rdynamic CMakeFiles/cmTC_31147.dir/CheckFunctionExists.c.o  -o cmTC_31147 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_664a7/fast && /usr/bin/make -f CMakeFiles/cmTC_664a7.dir/build.make CMakeFiles/cmTC_664a7.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_664a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTC_664a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘calloc’; expected ‘void *(long unsigned int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘calloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_664a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_664a7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=calloc    -rdynamic CMakeFiles/cmTC_664a7.dir/CheckFunctionExists.c.o  -o cmTC_664a7 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8bbff/fast && /usr/bin/make -f CMakeFiles/cmTC_8bbff.dir/build.make CMakeFiles/cmTC_8bbff.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bbff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTC_8bbff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘realloc’; expected ‘void *(void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘realloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_8bbff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bbff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=realloc    -rdynamic CMakeFiles/cmTC_8bbff.dir/CheckFunctionExists.c.o  -o cmTC_8bbff 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68610/fast && /usr/bin/make -f CMakeFiles/cmTC_68610.dir/build.make CMakeFiles/cmTC_68610.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68610.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTC_68610.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘free’; expected ‘void(void *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘free’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_68610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68610.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=free    -rdynamic CMakeFiles/cmTC_68610.dir/CheckFunctionExists.c.o  -o cmTC_68610 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bc78f/fast && /usr/bin/make -f CMakeFiles/cmTC_bc78f.dir/build.make CMakeFiles/cmTC_bc78f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc78f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTC_bc78f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc78f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc78f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getenv    -rdynamic CMakeFiles/cmTC_bc78f.dir/CheckFunctionExists.c.o  -o cmTC_bc78f 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7a5d/fast && /usr/bin/make -f CMakeFiles/cmTC_a7a5d.dir/build.make CMakeFiles/cmTC_a7a5d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7a5d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTC_a7a5d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7a5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7a5d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setenv    -rdynamic CMakeFiles/cmTC_a7a5d.dir/CheckFunctionExists.c.o  -o cmTC_a7a5d 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9cb8f/fast && /usr/bin/make -f CMakeFiles/cmTC_9cb8f.dir/build.make CMakeFiles/cmTC_9cb8f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cb8f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTC_9cb8f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9cb8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb8f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=putenv    -rdynamic CMakeFiles/cmTC_9cb8f.dir/CheckFunctionExists.c.o  -o cmTC_9cb8f 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7520a/fast && /usr/bin/make -f CMakeFiles/cmTC_7520a.dir/build.make CMakeFiles/cmTC_7520a.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7520a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles/cmTC_7520a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7520a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7520a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=unsetenv    -rdynamic CMakeFiles/cmTC_7520a.dir/CheckFunctionExists.c.o  -o cmTC_7520a 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5dea0/fast && /usr/bin/make -f CMakeFiles/cmTC_5dea0.dir/build.make CMakeFiles/cmTC_5dea0.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dea0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=qsort   -o CMakeFiles/cmTC_5dea0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5dea0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dea0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=qsort    -rdynamic CMakeFiles/cmTC_5dea0.dir/CheckFunctionExists.c.o  -o cmTC_5dea0 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_098a9/fast && /usr/bin/make -f CMakeFiles/cmTC_098a9.dir/build.make CMakeFiles/cmTC_098a9.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_098a9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=abs   -o CMakeFiles/cmTC_098a9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘abs’; expected ‘int(int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘abs’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_098a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_098a9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=abs    -rdynamic CMakeFiles/cmTC_098a9.dir/CheckFunctionExists.c.o  -o cmTC_098a9 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f21f/fast && /usr/bin/make -f CMakeFiles/cmTC_1f21f.dir/build.make CMakeFiles/cmTC_1f21f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f21f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=bcopy   -o CMakeFiles/cmTC_1f21f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘bcopy’; expected ‘void(const void *, void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_1f21f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f21f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=bcopy    -rdynamic CMakeFiles/cmTC_1f21f.dir/CheckFunctionExists.c.o  -o cmTC_1f21f 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79375/fast && /usr/bin/make -f CMakeFiles/cmTC_79375.dir/build.make CMakeFiles/cmTC_79375.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79375.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_79375.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘memset’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_79375
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79375.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memset    -rdynamic CMakeFiles/cmTC_79375.dir/CheckFunctionExists.c.o  -o cmTC_79375 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93107/fast && /usr/bin/make -f CMakeFiles/cmTC_93107.dir/build.make CMakeFiles/cmTC_93107.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93107.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_93107.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_93107
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93107.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memcpy    -rdynamic CMakeFiles/cmTC_93107.dir/CheckFunctionExists.c.o  -o cmTC_93107 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6d095/fast && /usr/bin/make -f CMakeFiles/cmTC_6d095.dir/build.make CMakeFiles/cmTC_6d095.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d095.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_6d095.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memmove’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘memmove’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_6d095
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d095.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memmove    -rdynamic CMakeFiles/cmTC_6d095.dir/CheckFunctionExists.c.o  -o cmTC_6d095 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_602d5/fast && /usr/bin/make -f CMakeFiles/cmTC_602d5.dir/build.make CMakeFiles/cmTC_602d5.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_602d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTC_602d5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memcmp’; expected ‘int(const void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘memcmp’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_602d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_602d5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memcmp    -rdynamic CMakeFiles/cmTC_602d5.dir/CheckFunctionExists.c.o  -o cmTC_602d5 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57f9c/fast && /usr/bin/make -f CMakeFiles/cmTC_57f9c.dir/build.make CMakeFiles/cmTC_57f9c.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57f9c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlen   -o CMakeFiles/cmTC_57f9c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strlen’; expected ‘long unsigned int(const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘strlen’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_57f9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57f9c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlen    -rdynamic CMakeFiles/cmTC_57f9c.dir/CheckFunctionExists.c.o  -o cmTC_57f9c 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2868a/fast && /usr/bin/make -f CMakeFiles/cmTC_2868a.dir/build.make CMakeFiles/cmTC_2868a.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2868a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTC_2868a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strdup’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_2868a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2868a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strdup    -rdynamic CMakeFiles/cmTC_2868a.dir/CheckFunctionExists.c.o  -o cmTC_2868a 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da5a5/fast && /usr/bin/make -f CMakeFiles/cmTC_da5a5.dir/build.make CMakeFiles/cmTC_da5a5.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da5a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_da5a5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘strchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_da5a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da5a5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strchr    -rdynamic CMakeFiles/cmTC_da5a5.dir/CheckFunctionExists.c.o  -o cmTC_da5a5 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91acb/fast && /usr/bin/make -f CMakeFiles/cmTC_91acb.dir/build.make CMakeFiles/cmTC_91acb.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91acb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_91acb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strrchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘strrchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_91acb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91acb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strrchr    -rdynamic CMakeFiles/cmTC_91acb.dir/CheckFunctionExists.c.o  -o cmTC_91acb 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61202/fast && /usr/bin/make -f CMakeFiles/cmTC_61202.dir/build.make CMakeFiles/cmTC_61202.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61202.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_61202.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strstr’; expected ‘char *(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘strstr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_61202
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61202.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strstr    -rdynamic CMakeFiles/cmTC_61202.dir/CheckFunctionExists.c.o  -o cmTC_61202 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92d7e/fast && /usr/bin/make -f CMakeFiles/cmTC_92d7e.dir/build.make CMakeFiles/cmTC_92d7e.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92d7e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTC_92d7e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92d7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92d7e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtol    -rdynamic CMakeFiles/cmTC_92d7e.dir/CheckFunctionExists.c.o  -o cmTC_92d7e 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67fec/fast && /usr/bin/make -f CMakeFiles/cmTC_67fec.dir/build.make CMakeFiles/cmTC_67fec.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67fec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTC_67fec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67fec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67fec.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoul    -rdynamic CMakeFiles/cmTC_67fec.dir/CheckFunctionExists.c.o  -o cmTC_67fec 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca1db/fast && /usr/bin/make -f CMakeFiles/cmTC_ca1db.dir/build.make CMakeFiles/cmTC_ca1db.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca1db.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_ca1db.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca1db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca1db.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoll    -rdynamic CMakeFiles/cmTC_ca1db.dir/CheckFunctionExists.c.o  -o cmTC_ca1db 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3bfe/fast && /usr/bin/make -f CMakeFiles/cmTC_f3bfe.dir/build.make CMakeFiles/cmTC_f3bfe.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3bfe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_f3bfe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3bfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3bfe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoull    -rdynamic CMakeFiles/cmTC_f3bfe.dir/CheckFunctionExists.c.o  -o cmTC_f3bfe 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bc6a9/fast && /usr/bin/make -f CMakeFiles/cmTC_bc6a9.dir/build.make CMakeFiles/cmTC_bc6a9.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc6a9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atoi   -o CMakeFiles/cmTC_bc6a9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc6a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc6a9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=atoi    -rdynamic CMakeFiles/cmTC_bc6a9.dir/CheckFunctionExists.c.o  -o cmTC_bc6a9 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1fdbb/fast && /usr/bin/make -f CMakeFiles/cmTC_1fdbb.dir/build.make CMakeFiles/cmTC_1fdbb.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fdbb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atof   -o CMakeFiles/cmTC_1fdbb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1fdbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fdbb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=atof    -rdynamic CMakeFiles/cmTC_1fdbb.dir/CheckFunctionExists.c.o  -o cmTC_1fdbb 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_943f8/fast && /usr/bin/make -f CMakeFiles/cmTC_943f8.dir/build.make CMakeFiles/cmTC_943f8.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_943f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTC_943f8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strcmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘strcmp’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_943f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_943f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcmp    -rdynamic CMakeFiles/cmTC_943f8.dir/CheckFunctionExists.c.o  -o cmTC_943f8 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c98b1/fast && /usr/bin/make -f CMakeFiles/cmTC_c98b1.dir/build.make CMakeFiles/cmTC_c98b1.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c98b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncmp   -o CMakeFiles/cmTC_c98b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strncmp’; expected ‘int(const char *, const char *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘strncmp’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_c98b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c98b1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strncmp    -rdynamic CMakeFiles/cmTC_c98b1.dir/CheckFunctionExists.c.o  -o cmTC_c98b1 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fbed7/fast && /usr/bin/make -f CMakeFiles/cmTC_fbed7.dir/build.make CMakeFiles/cmTC_fbed7.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbed7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTC_fbed7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strncasecmp’; expected ‘int(const char *, const char *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+Linking C executable cmTC_fbed7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbed7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strncasecmp    -rdynamic CMakeFiles/cmTC_fbed7.dir/CheckFunctionExists.c.o  -o cmTC_fbed7 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b18d4/fast && /usr/bin/make -f CMakeFiles/cmTC_b18d4.dir/build.make CMakeFiles/cmTC_b18d4.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b18d4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsscanf   -o CMakeFiles/cmTC_b18d4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘vsscanf’; expected ‘int(const char *, const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘vsscanf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_b18d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b18d4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsscanf    -rdynamic CMakeFiles/cmTC_b18d4.dir/CheckFunctionExists.c.o  -o cmTC_b18d4 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b367/fast && /usr/bin/make -f CMakeFiles/cmTC_1b367.dir/build.make CMakeFiles/cmTC_1b367.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b367.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_1b367.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘vsnprintf’; expected ‘int(char *, long unsigned int,  const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘vsnprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_1b367
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b367.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf    -rdynamic CMakeFiles/cmTC_1b367.dir/CheckFunctionExists.c.o  -o cmTC_1b367 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko64 exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57bd2/fast && /usr/bin/make -f CMakeFiles/cmTC_57bd2.dir/build.make CMakeFiles/cmTC_57bd2.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57bd2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko64   -o CMakeFiles/cmTC_57bd2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57bd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57bd2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko64    -rdynamic CMakeFiles/cmTC_57bd2.dir/CheckFunctionExists.c.o  -o cmTC_57bd2 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0279a/fast && /usr/bin/make -f CMakeFiles/cmTC_0279a.dir/build.make CMakeFiles/cmTC_0279a.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0279a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_0279a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0279a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0279a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction    -rdynamic CMakeFiles/cmTC_0279a.dir/CheckFunctionExists.c.o  -o cmTC_0279a 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e46be/fast && /usr/bin/make -f CMakeFiles/cmTC_e46be.dir/build.make CMakeFiles/cmTC_e46be.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e46be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_e46be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e46be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e46be.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setjmp    -rdynamic CMakeFiles/cmTC_e46be.dir/CheckFunctionExists.c.o  -o cmTC_e46be 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4adfd/fast && /usr/bin/make -f CMakeFiles/cmTC_4adfd.dir/build.make CMakeFiles/cmTC_4adfd.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4adfd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_4adfd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4adfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4adfd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=nanosleep    -rdynamic CMakeFiles/cmTC_4adfd.dir/CheckFunctionExists.c.o  -o cmTC_4adfd 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6936b/fast && /usr/bin/make -f CMakeFiles/cmTC_6936b.dir/build.make CMakeFiles/cmTC_6936b.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6936b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTC_6936b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6936b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6936b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sysconf    -rdynamic CMakeFiles/cmTC_6936b.dir/CheckFunctionExists.c.o  -o cmTC_6936b 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getauxval exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_de789/fast && /usr/bin/make -f CMakeFiles/cmTC_de789.dir/build.make CMakeFiles/cmTC_de789.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de789.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getauxval   -o CMakeFiles/cmTC_de789.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de789
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de789.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getauxval    -rdynamic CMakeFiles/cmTC_de789.dir/CheckFunctionExists.c.o  -o cmTC_de789 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ce50/fast && /usr/bin/make -f CMakeFiles/cmTC_3ce50.dir/build.make CMakeFiles/cmTC_3ce50.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ce50.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_3ce50.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_3ce50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ce50.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow    -rdynamic CMakeFiles/cmTC_3ce50.dir/CheckFunctionExists.c.o  -o cmTC_3ce50  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4026/fast && /usr/bin/make -f CMakeFiles/cmTC_d4026.dir/build.make CMakeFiles/cmTC_d4026.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4026.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atan   -o CMakeFiles/cmTC_d4026.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘atan’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘atan’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_d4026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4026.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=atan    -rdynamic CMakeFiles/cmTC_d4026.dir/CheckFunctionExists.c.o  -o cmTC_d4026  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5ff6/fast && /usr/bin/make -f CMakeFiles/cmTC_d5ff6.dir/build.make CMakeFiles/cmTC_d5ff6.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5ff6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTC_d5ff6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘atan2’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘atan2’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_d5ff6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5ff6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=atan2    -rdynamic CMakeFiles/cmTC_d5ff6.dir/CheckFunctionExists.c.o  -o cmTC_d5ff6  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b8579/fast && /usr/bin/make -f CMakeFiles/cmTC_b8579.dir/build.make CMakeFiles/cmTC_b8579.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8579.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTC_b8579.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘ceil’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘ceil’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_b8579
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8579.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ceil    -rdynamic CMakeFiles/cmTC_b8579.dir/CheckFunctionExists.c.o  -o cmTC_b8579  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d3df6/fast && /usr/bin/make -f CMakeFiles/cmTC_d3df6.dir/build.make CMakeFiles/cmTC_d3df6.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3df6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTC_d3df6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘copysign’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘copysign’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_d3df6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3df6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=copysign    -rdynamic CMakeFiles/cmTC_d3df6.dir/CheckFunctionExists.c.o  -o cmTC_d3df6  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82852/fast && /usr/bin/make -f CMakeFiles/cmTC_82852.dir/build.make CMakeFiles/cmTC_82852.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82852.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cos   -o CMakeFiles/cmTC_82852.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘cos’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘cos’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_82852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82852.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cos    -rdynamic CMakeFiles/cmTC_82852.dir/CheckFunctionExists.c.o  -o cmTC_82852  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02c6e/fast && /usr/bin/make -f CMakeFiles/cmTC_02c6e.dir/build.make CMakeFiles/cmTC_02c6e.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02c6e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cosf   -o CMakeFiles/cmTC_02c6e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘cosf’; expected ‘float(float)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘cosf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_02c6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02c6e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cosf    -rdynamic CMakeFiles/cmTC_02c6e.dir/CheckFunctionExists.c.o  -o cmTC_02c6e  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c1aa/fast && /usr/bin/make -f CMakeFiles/cmTC_2c1aa.dir/build.make CMakeFiles/cmTC_2c1aa.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c1aa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fabs   -o CMakeFiles/cmTC_2c1aa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘fabs’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘fabs’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_2c1aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c1aa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fabs    -rdynamic CMakeFiles/cmTC_2c1aa.dir/CheckFunctionExists.c.o  -o cmTC_2c1aa  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54387/fast && /usr/bin/make -f CMakeFiles/cmTC_54387.dir/build.make CMakeFiles/cmTC_54387.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54387.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_54387.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘floor’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘floor’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_54387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54387.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=floor    -rdynamic CMakeFiles/cmTC_54387.dir/CheckFunctionExists.c.o  -o cmTC_54387  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a486/fast && /usr/bin/make -f CMakeFiles/cmTC_2a486.dir/build.make CMakeFiles/cmTC_2a486.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a486.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_2a486.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘log’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘log’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_2a486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a486.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=log    -rdynamic CMakeFiles/cmTC_2a486.dir/CheckFunctionExists.c.o  -o cmTC_2a486  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96f95/fast && /usr/bin/make -f CMakeFiles/cmTC_96f95.dir/build.make CMakeFiles/cmTC_96f95.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96f95.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_96f95.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_96f95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96f95.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow    -rdynamic CMakeFiles/cmTC_96f95.dir/CheckFunctionExists.c.o  -o cmTC_96f95  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0e2e/fast && /usr/bin/make -f CMakeFiles/cmTC_d0e2e.dir/build.make CMakeFiles/cmTC_d0e2e.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0e2e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scalbn   -o CMakeFiles/cmTC_d0e2e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘scalbn’; expected ‘double(double,  int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘scalbn’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_d0e2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0e2e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=scalbn    -rdynamic CMakeFiles/cmTC_d0e2e.dir/CheckFunctionExists.c.o  -o cmTC_d0e2e  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ddd64/fast && /usr/bin/make -f CMakeFiles/cmTC_ddd64.dir/build.make CMakeFiles/cmTC_ddd64.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddd64.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sin   -o CMakeFiles/cmTC_ddd64.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sin’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘sin’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_ddd64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd64.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sin    -rdynamic CMakeFiles/cmTC_ddd64.dir/CheckFunctionExists.c.o  -o cmTC_ddd64  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16340/fast && /usr/bin/make -f CMakeFiles/cmTC_16340.dir/build.make CMakeFiles/cmTC_16340.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16340.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sinf   -o CMakeFiles/cmTC_16340.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sinf’; expected ‘float(float)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘sinf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_16340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16340.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sinf    -rdynamic CMakeFiles/cmTC_16340.dir/CheckFunctionExists.c.o  -o cmTC_16340  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e634/fast && /usr/bin/make -f CMakeFiles/cmTC_7e634.dir/build.make CMakeFiles/cmTC_7e634.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e634.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTC_7e634.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘sqrt’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_7e634
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e634.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrt    -rdynamic CMakeFiles/cmTC_7e634.dir/CheckFunctionExists.c.o  -o cmTC_7e634  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06e69/fast && /usr/bin/make -f CMakeFiles/cmTC_06e69.dir/build.make CMakeFiles/cmTC_06e69.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06e69.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqrtf   -o CMakeFiles/cmTC_06e69.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sqrtf’; expected ‘float(float)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘sqrtf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_06e69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06e69.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrtf    -rdynamic CMakeFiles/cmTC_06e69.dir/CheckFunctionExists.c.o  -o cmTC_06e69  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67ae2/fast && /usr/bin/make -f CMakeFiles/cmTC_67ae2.dir/build.make CMakeFiles/cmTC_67ae2.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67ae2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tan   -o CMakeFiles/cmTC_67ae2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘tan’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘tan’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_67ae2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ae2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=tan    -rdynamic CMakeFiles/cmTC_67ae2.dir/CheckFunctionExists.c.o  -o cmTC_67ae2  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c876d/fast && /usr/bin/make -f CMakeFiles/cmTC_c876d.dir/build.make CMakeFiles/cmTC_c876d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c876d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tanf   -o CMakeFiles/cmTC_c876d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘tanf’; expected ‘float(float)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘tanf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_c876d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c876d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=tanf    -rdynamic CMakeFiles/cmTC_c876d.dir/CheckFunctionExists.c.o  -o cmTC_c876d  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ea584/fast && /usr/bin/make -f CMakeFiles/cmTC_ea584.dir/build.make CMakeFiles/cmTC_ea584.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea584.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=acos   -o CMakeFiles/cmTC_ea584.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘acos’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘acos’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_ea584
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea584.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=acos    -rdynamic CMakeFiles/cmTC_ea584.dir/CheckFunctionExists.c.o  -o cmTC_ea584  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8299d/fast && /usr/bin/make -f CMakeFiles/cmTC_8299d.dir/build.make CMakeFiles/cmTC_8299d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8299d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=asin   -o CMakeFiles/cmTC_8299d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘asin’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘asin’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_8299d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8299d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=asin    -rdynamic CMakeFiles/cmTC_8299d.dir/CheckFunctionExists.c.o  -o cmTC_8299d  -lm 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e5a8/fast && /usr/bin/make -f CMakeFiles/cmTC_3e5a8.dir/build.make CMakeFiles/cmTC_3e5a8.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e5a8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3e5a8.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3e5a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e5a8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3e5a8.dir/CheckIncludeFile.c.o  -o cmTC_3e5a8 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df82a/fast && /usr/bin/make -f CMakeFiles/cmTC_df82a.dir/build.make CMakeFiles/cmTC_df82a.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df82a.dir/src.c.o
+/usr/bin/cc   -DHAVE_SA_SIGACTION   -o CMakeFiles/cmTC_df82a.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_df82a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df82a.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SA_SIGACTION    -rdynamic CMakeFiles/cmTC_df82a.dir/src.c.o  -o cmTC_df82a 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa7d3/fast && /usr/bin/make -f CMakeFiles/cmTC_fa7d3.dir/build.make CMakeFiles/cmTC_fa7d3.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa7d3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_fa7d3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fa7d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa7d3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_fa7d3.dir/CheckFunctionExists.c.o  -o cmTC_fa7d3  -ldl 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test OSS_FOUND succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29f98/fast && /usr/bin/make -f CMakeFiles/cmTC_29f98.dir/build.make CMakeFiles/cmTC_29f98.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29f98.dir/src.c.o
+/usr/bin/cc   -DOSS_FOUND   -o CMakeFiles/cmTC_29f98.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_29f98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29f98.dir/link.txt --verbose=1
+/usr/bin/cc  -DOSS_FOUND    -rdynamic CMakeFiles/cmTC_29f98.dir/src.c.o  -o cmTC_29f98 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <sys/soundcard.h>
+        int main() { int arg = SNDCTL_DSP_SETFRAGMENT; }
+Determining if the include file alsa/asoundlib.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1da62/fast && /usr/bin/make -f CMakeFiles/cmTC_1da62.dir/build.make CMakeFiles/cmTC_1da62.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1da62.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1da62.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1da62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1da62.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1da62.dir/CheckIncludeFile.c.o  -o cmTC_1da62 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function snd_pcm_recover exists in the asound passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67972/fast && /usr/bin/make -f CMakeFiles/cmTC_67972.dir/build.make CMakeFiles/cmTC_67972.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67972.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snd_pcm_recover   -o CMakeFiles/cmTC_67972.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67972
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67972.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snd_pcm_recover    -rdynamic CMakeFiles/cmTC_67972.dir/CheckFunctionExists.c.o  -o cmTC_67972  -lasound 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sndio.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b2786/fast && /usr/bin/make -f CMakeFiles/cmTC_b2786.dir/build.make CMakeFiles/cmTC_b2786.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2786.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b2786.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b2786
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2786.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b2786.dir/CheckIncludeFile.c.o  -o cmTC_b2786 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file X11/Xcursor/Xcursor.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0b3b/fast && /usr/bin/make -f CMakeFiles/cmTC_f0b3b.dir/build.make CMakeFiles/cmTC_f0b3b.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0b3b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f0b3b.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f0b3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0b3b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f0b3b.dir/CheckIncludeFile.c.o  -o cmTC_f0b3b 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file X11/extensions/Xinerama.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2481f/fast && /usr/bin/make -f CMakeFiles/cmTC_2481f.dir/build.make CMakeFiles/cmTC_2481f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2481f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2481f.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2481f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2481f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2481f.dir/CheckIncludeFile.c.o  -o cmTC_2481f 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file X11/extensions/XInput2.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5179e/fast && /usr/bin/make -f CMakeFiles/cmTC_5179e.dir/build.make CMakeFiles/cmTC_5179e.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5179e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5179e.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5179e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5179e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5179e.dir/CheckIncludeFile.c.o  -o cmTC_5179e 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file X11/extensions/Xrandr.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4bf68/fast && /usr/bin/make -f CMakeFiles/cmTC_4bf68.dir/build.make CMakeFiles/cmTC_4bf68.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bf68.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4bf68.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4bf68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bf68.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4bf68.dir/CheckIncludeFile.c.o  -o cmTC_4bf68 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file X11/extensions/Xrender.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15ac2/fast && /usr/bin/make -f CMakeFiles/cmTC_15ac2.dir/build.make CMakeFiles/cmTC_15ac2.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15ac2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_15ac2.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_15ac2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15ac2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_15ac2.dir/CheckIncludeFile.c.o  -o cmTC_15ac2 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file X11/extensions/scrnsaver.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5608a/fast && /usr/bin/make -f CMakeFiles/cmTC_5608a.dir/build.make CMakeFiles/cmTC_5608a.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5608a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5608a.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5608a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5608a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5608a.dir/CheckIncludeFile.c.o  -o cmTC_5608a 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file X11/extensions/shape.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70f75/fast && /usr/bin/make -f CMakeFiles/cmTC_70f75.dir/build.make CMakeFiles/cmTC_70f75.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70f75.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_70f75.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_70f75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70f75.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_70f75.dir/CheckIncludeFile.c.o  -o cmTC_70f75 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files X11/Xlib.h;X11/extensions/xf86vmode.h exist passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1478f/fast && /usr/bin/make -f CMakeFiles/cmTC_1478f.dir/build.make CMakeFiles/cmTC_1478f.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1478f.dir/HAVE_XF86VM_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1478f.dir/HAVE_XF86VM_H.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CheckIncludeFiles/HAVE_XF86VM_H.c
+Linking C executable cmTC_1478f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1478f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1478f.dir/HAVE_XF86VM_H.c.o  -o cmTC_1478f 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files X11/Xlib.h;X11/Xproto.h;X11/extensions/Xext.h exist passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7dc2c/fast && /usr/bin/make -f CMakeFiles/cmTC_7dc2c.dir/build.make CMakeFiles/cmTC_7dc2c.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7dc2c.dir/HAVE_XEXT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7dc2c.dir/HAVE_XEXT_H.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CheckIncludeFiles/HAVE_XEXT_H.c
+Linking C executable cmTC_7dc2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dc2c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7dc2c.dir/HAVE_XEXT_H.c.o  -o cmTC_7dc2c 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d733d/fast && /usr/bin/make -f CMakeFiles/cmTC_d733d.dir/build.make CMakeFiles/cmTC_d733d.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d733d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_d733d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d733d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d733d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_d733d.dir/CheckFunctionExists.c.o  -o cmTC_d733d 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_CONST_XEXT_ADDDISPLAY succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_702a8/fast && /usr/bin/make -f CMakeFiles/cmTC_702a8.dir/build.make CMakeFiles/cmTC_702a8.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_702a8.dir/src.c.o
+/usr/bin/cc   -DHAVE_CONST_XEXT_ADDDISPLAY   -o CMakeFiles/cmTC_702a8.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_702a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_702a8.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_CONST_XEXT_ADDDISPLAY    -rdynamic CMakeFiles/cmTC_702a8.dir/src.c.o  -o cmTC_702a8  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libX11.so 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          #include <X11/Xproto.h>
+          #include <X11/extensions/Xext.h>
+          #include <X11/extensions/extutil.h>
+          extern XExtDisplayInfo* XextAddDisplay(XExtensionInfo* a,Display* b,_Xconst char* c,XExtensionHooks* d,int e,XPointer f);
+          int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_XGENERICEVENT succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef543/fast && /usr/bin/make -f CMakeFiles/cmTC_ef543.dir/build.make CMakeFiles/cmTC_ef543.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef543.dir/src.c.o
+/usr/bin/cc   -DHAVE_XGENERICEVENT   -o CMakeFiles/cmTC_ef543.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ef543
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef543.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_XGENERICEVENT    -rdynamic CMakeFiles/cmTC_ef543.dir/src.c.o  -o cmTC_ef543  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libX11.so 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          int main(int argc, char **argv) {
+            Display *display;
+            XEvent event;
+            XGenericEventCookie *cookie = &event.xcookie;
+            XNextEvent(display, &event);
+            XGetEventData(display, cookie);
+            XFreeEventData(display, cookie); }
+Determining if the function XkbKeycodeToKeysym exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6e54b/fast && /usr/bin/make -f CMakeFiles/cmTC_6e54b.dir/build.make CMakeFiles/cmTC_6e54b.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e54b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XkbKeycodeToKeysym   -o CMakeFiles/cmTC_6e54b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6e54b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e54b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XkbKeycodeToKeysym    -rdynamic CMakeFiles/cmTC_6e54b.dir/CheckFunctionExists.c.o  -o cmTC_6e54b  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libX11.so 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_XINPUT2_MULTITOUCH succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ddb95/fast && /usr/bin/make -f CMakeFiles/cmTC_ddb95.dir/build.make CMakeFiles/cmTC_ddb95.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddb95.dir/src.c.o
+/usr/bin/cc   -DHAVE_XINPUT2_MULTITOUCH   -o CMakeFiles/cmTC_ddb95.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ddb95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddb95.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_XINPUT2_MULTITOUCH    -rdynamic CMakeFiles/cmTC_ddb95.dir/src.c.o  -o cmTC_ddb95  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libX11.so 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <X11/Xlib.h>
+            #include <X11/Xproto.h>
+            #include <X11/extensions/XInput2.h>
+            int event_type = XI_TouchBegin;
+            XITouchClassInfo *t;
+            Status XIAllowTouchEvents(Display *a,int b,unsigned int c,Window d,int f)
+            {
+              return (Status)0;
+            }
+            int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63c3b/fast && /usr/bin/make -f CMakeFiles/cmTC_63c3b.dir/build.make CMakeFiles/cmTC_63c3b.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63c3b.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGL   -o CMakeFiles/cmTC_63c3b.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_63c3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63c3b.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_VIDEO_OPENGL    -rdynamic CMakeFiles/cmTC_63c3b.dir/src.c.o  -o cmTC_63c3b 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <GL/gl.h>
+        #include <GL/glx.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL_EGL succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_757c7/fast && /usr/bin/make -f CMakeFiles/cmTC_757c7.dir/build.make CMakeFiles/cmTC_757c7.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_757c7.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGL_EGL   -o CMakeFiles/cmTC_757c7.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_757c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_757c7.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_VIDEO_OPENGL_EGL    -rdynamic CMakeFiles/cmTC_757c7.dir/src.c.o  -o cmTC_757c7 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #define EGL_API_FB
+        #include <EGL/egl.h>
+        int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V1 succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3182/fast && /usr/bin/make -f CMakeFiles/cmTC_c3182.dir/build.make CMakeFiles/cmTC_c3182.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3182.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGLES_V1   -o CMakeFiles/cmTC_c3182.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c3182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3182.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_VIDEO_OPENGLES_V1    -rdynamic CMakeFiles/cmTC_c3182.dir/src.c.o  -o cmTC_c3182 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #include <GLES/gl.h>
+      #include <GLES/glext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V2 succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76c8e/fast && /usr/bin/make -f CMakeFiles/cmTC_76c8e.dir/build.make CMakeFiles/cmTC_76c8e.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76c8e.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGLES_V2   -o CMakeFiles/cmTC_76c8e.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_76c8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76c8e.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_VIDEO_OPENGLES_V2    -rdynamic CMakeFiles/cmTC_76c8e.dir/src.c.o  -o cmTC_76c8e 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #include <GLES2/gl2.h>
+      #include <GLES2/gl2ext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_INPUT_EVENTS succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd4c3/fast && /usr/bin/make -f CMakeFiles/cmTC_cd4c3.dir/build.make CMakeFiles/cmTC_cd4c3.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd4c3.dir/src.c.o
+/usr/bin/cc   -DHAVE_INPUT_EVENTS   -o CMakeFiles/cmTC_cd4c3.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cd4c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd4c3.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_INPUT_EVENTS    -rdynamic CMakeFiles/cmTC_cd4c3.dir/src.c.o  -o cmTC_cd4c3 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <linux/input.h>
+        #ifndef EVIOCGNAME
+        #error EVIOCGNAME() ioctl not available
+        #endif
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_INPUT_KD succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b1292/fast && /usr/bin/make -f CMakeFiles/cmTC_b1292.dir/build.make CMakeFiles/cmTC_b1292.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1292.dir/src.c.o
+/usr/bin/cc   -DHAVE_INPUT_KD   -o CMakeFiles/cmTC_b1292.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:9:13: warning: implicit declaration of function ‘ioctl’ [-Wimplicit-function-declaration]
+    9 |             ioctl(0, KDGKBENT, &kbe);
+      |             ^~~~~
+Linking C executable cmTC_b1292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1292.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_INPUT_KD    -rdynamic CMakeFiles/cmTC_b1292.dir/src.c.o  -o cmTC_b1292 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <linux/kd.h>
+        #include <linux/keyboard.h>
+
+        int main(int argc, char **argv) 
+        {
+            struct kbentry kbe;
+            kbe.kb_table = KG_CTRL;
+            ioctl(0, KDGKBENT, &kbe);
+        }
+Determining if the include file libudev.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2cbe0/fast && /usr/bin/make -f CMakeFiles/cmTC_2cbe0.dir/build.make CMakeFiles/cmTC_2cbe0.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cbe0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2cbe0.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2cbe0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cbe0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2cbe0.dir/CheckIncludeFile.c.o  -o cmTC_2cbe0 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following compile output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d541/fast && /usr/bin/make -f CMakeFiles/cmTC_9d541.dir/build.make CMakeFiles/cmTC_9d541.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d541.dir/src.c.o
+/usr/bin/cc   -DHAVE_PTHREADS   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_9d541.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9d541
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d541.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_PTHREADS   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_9d541.dir/src.c.o  -o cmTC_9d541 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fda5e/fast && /usr/bin/make -f CMakeFiles/cmTC_fda5e.dir/build.make CMakeFiles/cmTC_fda5e.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fda5e.dir/src.c.o
+/usr/bin/cc   -DHAVE_RECURSIVE_MUTEXES   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_fda5e.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fda5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fda5e.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_RECURSIVE_MUTEXES   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_fda5e.dir/src.c.o  -o cmTC_fda5e 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8da8c/fast && /usr/bin/make -f CMakeFiles/cmTC_8da8c.dir/build.make CMakeFiles/cmTC_8da8c.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8da8c.dir/src.c.o
+/usr/bin/cc   -DHAVE_PTHREADS_SEM   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_8da8c.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8da8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8da8c.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_PTHREADS_SEM   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_8da8c.dir/src.c.o  -o cmTC_8da8c 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4fff7/fast && /usr/bin/make -f CMakeFiles/cmTC_4fff7.dir/build.make CMakeFiles/cmTC_4fff7.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fff7.dir/src.c.o
+/usr/bin/cc   -DHAVE_SEM_TIMEDWAIT   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_4fff7.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:5:19: warning: null argument where non-null required (argument 1) [-Wnonnull]
+    5 |                   sem_timedwait(NULL, NULL);
+      |                   ^~~~~~~~~~~~~
+/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c:5:19: warning: null argument where non-null required (argument 2) [-Wnonnull]
+Linking C executable cmTC_4fff7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fff7.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SEM_TIMEDWAIT   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_4fff7.dir/src.c.o  -o cmTC_4fff7 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ac2a/fast && /usr/bin/make -f CMakeFiles/cmTC_3ac2a.dir/build.make CMakeFiles/cmTC_3ac2a.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ac2a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_setname_np   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_3ac2a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ac2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ac2a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_setname_np   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_3ac2a.dir/CheckFunctionExists.c.o  -o cmTC_3ac2a 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file linux/version.h exists passed with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56cae/fast && /usr/bin/make -f CMakeFiles/cmTC_56cae.dir/build.make CMakeFiles/cmTC_56cae.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56cae.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_56cae.dir/CheckIncludeFile.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_56cae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56cae.dir/link.txt --verbose=1
+/usr/bin/cc       -rdynamic CMakeFiles/cmTC_56cae.dir/CheckIncludeFile.c.o  -o cmTC_56cae 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_ENABLE_NEW_DTAGS succeeded with the following output:
+Change Dir: /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5b196/fast && /usr/bin/make -f CMakeFiles/cmTC_5b196.dir/build.make CMakeFiles/cmTC_5b196.dir/build
+make[1]: Entering directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b196.dir/src.c.o
+/usr/bin/cc   -DHAVE_LINUX_VERSION_H -DHAVE_ENABLE_NEW_DTAGS -Wl,--enable-new-dtags   -o CMakeFiles/cmTC_5b196.dir/src.c.o   -c /home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5b196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b196.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_LINUX_VERSION_H -DHAVE_ENABLE_NEW_DTAGS -Wl,--enable-new-dtags    -rdynamic CMakeFiles/cmTC_5b196.dir/src.c.o  -o cmTC_5b196 
+make[1]: Leaving directory '/home/mason/retrodream/retrodream-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

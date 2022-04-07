@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mason/retrodream/retrodream-master/deps/chdr/deps/crypto/md5.c
+stdlib.h
+-
+memory.h
+-
+md5.h
+/home/mason/retrodream/retrodream-master/deps/chdr/deps/crypto/md5.h
+
+/home/mason/retrodream/retrodream-master/deps/chdr/deps/crypto/md5.h
+stddef.h
+-
+
+/home/mason/retrodream/retrodream-master/deps/chdr/deps/crypto/sha1.c
+stdlib.h
+-
+memory.h
+-
+sha1.h
+/home/mason/retrodream/retrodream-master/deps/chdr/deps/crypto/sha1.h
+
+/home/mason/retrodream/retrodream-master/deps/chdr/deps/crypto/sha1.h
+stddef.h
+-
+

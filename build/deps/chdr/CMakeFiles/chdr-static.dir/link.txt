@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchdr-static.a  CMakeFiles/chdr-static.dir/src/bitstream.c.o CMakeFiles/chdr-static.dir/src/cdrom.c.o CMakeFiles/chdr-static.dir/src/chd.c.o CMakeFiles/chdr-static.dir/src/flac.c.o CMakeFiles/chdr-static.dir/src/huffman.c.o
+/usr/bin/ranlib libchdr-static.a

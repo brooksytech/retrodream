@@ -1,0 +1,14 @@
+#ifndef REDREAM_CONFIG_H
+#define REDREAM_CONFIG_H
+
+#undef HAVE_STRINGS_H
+#undef HAVE_STRCASECMP
+#undef HAVE_STRNLEN
+#undef HAVE_STRNSTR
+
+#define HAVE_STRINGS_H
+#define HAVE_STRCASECMP
+#define HAVE_STRNLEN
+/* #undef HAVE_STRNSTR */
+
+#endif
