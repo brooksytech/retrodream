@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
 #include "core/core.h"
@@ -27,6 +26,7 @@ static inline void copy_state_to(mcontext_t *src, struct thread_state *dst) {
 
   dst->fpsr = simd->fpsr;
   dst->fpcr = simd->fpcr;
+/*
 #elif ARCH_X64
   dst->rax = src->gregs[REG_RAX];
   dst->rcx = src->gregs[REG_RCX];
@@ -45,7 +45,9 @@ static inline void copy_state_to(mcontext_t *src, struct thread_state *dst) {
   dst->r14 = src->gregs[REG_R14];
   dst->r15 = src->gregs[REG_R15];
   dst->rip = src->gregs[REG_RIP];
+*/
 #endif
+
 }
 
 static inline void copy_state_from(struct thread_state *src, mcontext_t *dst) {
@@ -68,6 +70,7 @@ static inline void copy_state_from(struct thread_state *src, mcontext_t *dst) {
 
   simd->fpsr = src->fpsr;
   simd->fpcr = src->fpcr;
+/*
 #elif ARCH_X64
   dst->gregs[REG_RAX] = src->rax;
   dst->gregs[REG_RCX] = src->rcx;
@@ -86,6 +89,7 @@ static inline void copy_state_from(struct thread_state *src, mcontext_t *dst) {
   dst->gregs[REG_R14] = src->r14;
   dst->gregs[REG_R15] = src->r15;
   dst->gregs[REG_RIP] = src->rip;
+*/
 #endif
 }
 
@@ -98,8 +102,8 @@ static void signal_handler(int signo, siginfo_t *info, void *ctx) {
   ex.fault_addr = (uintptr_t)info->si_addr;
 #if ARCH_A64
   ex.pc = uctx->uc_mcontext.pc;
-#elif ARCH_X64
-  ex.pc = uctx->uc_mcontext.gregs[REG_RIP];
+//#elif ARCH_X64
+  //ex.pc = uctx->uc_mcontext.gregs[REG_RIP];
 #endif
   copy_state_to(&uctx->uc_mcontext, &ex.thread_state);
 
