@@ -22,7 +22,7 @@ if(NOT CMAKE_BUILD_TYPE)
     "Choose the type of build, options are: Debug Release RelWithDebInfo MinSizeRel." FORCE)
 endif()
 
-option(BUILD_LIBRETRO "Build libretro core" OFF)
+option(BUILD_LIBRETRO "Build libretro core" ON)
 option(BUILD_TOOLS "Build tools" OFF)
 option(BUILD_TESTS "Build tests" OFF)
 
