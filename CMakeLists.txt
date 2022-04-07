@@ -322,7 +322,7 @@ elseif(COMPILER_GCC OR COMPILER_CLANG)
     # used for unnamed structure fields
     -fms-extensions
     # enable most errors
-    -Wall -Wextra -Werror
+    -Wall -Wextra
     # lax some of these common development warnings
     -Wno-unused-function -Wno-unused-parameter -Wno-unused-variable -Wno-strict-aliasing
     -D_GNU_SOURCE)
