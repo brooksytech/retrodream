@@ -2,7 +2,7 @@
 #include "core/filesystem.h"
 #include "guest/maple/maple.h"
 #include "guest/maple/vmu_default.inc"
-#include "file/file_path.h"
+#include "../../../src/libretro-common/include/file/file_path.h"
 #define BLK_SIZE 512
 #define BLK_WORDS (512 >> 2)
 #define BLK_OFFSET(blk, phase) ((blk)*BLK_SIZE + (phase) * (BLK_SIZE >> 2))
