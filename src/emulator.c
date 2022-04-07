@@ -34,7 +34,7 @@
 #include "options.h"
 #include "render/render_backend.h"
 #include "stats.h"
-#include "rthreads/rthreads.h"
+#include "../src/libretro-common/include/rthreads/rthreads.h"
 
 enum {
   ASPECT_RATIO_STRETCH,
@@ -797,4 +797,3 @@ uint8_t * emu_get_memory_ptr(struct emu *emu) {
   return mem_ram(emu->dc->mem,0);
 
 }
-
