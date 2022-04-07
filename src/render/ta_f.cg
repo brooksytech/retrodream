@@ -1,0 +1,77 @@
+void main(
+	float4 var_color : COLOR0,
+	float2 var_texcoord : TEXCOORD0,
+	float4 coords: WPOS,
+	float4 var_offset_color : COLOR1,
+	uniform sampler2D u_diffuse,
+	uniform float u_alpha_ref,
+	uniform int alpha_skip,
+	uniform int tex_alpha_skip,
+	uniform int has_texture,
+	uniform int alpha_test,
+	uniform int shade_mode,
+	uniform int offset_color,
+	float4 out frag_clr : COLOR,
+	float out depth : DEPTH)
+{
+	
+	float4 col = var_color;
+	if (alpha_skip == 1) {
+		col.a = 1.0;
+	}
+	
+	if (has_texture == 1) {
+		float4 tex = tex2D(u_diffuse, var_texcoord);
+		if (tex_alpha_skip == 1) {
+			tex.a = 1.0;
+		}
+		
+		if (alpha_test == 1) {
+			if (tex.a < u_alpha_ref)
+				discard;
+		}
+    
+		if (shade_mode == 1) { // SHADE_DECAL
+			frag_clr = tex;
+		} else if (shade_mode == 2) { // SHADE_MODULATE
+			frag_clr.rgb = tex.rgb * col.rgb;
+			frag_clr.a = tex.a;
+		} else if (shade_mode == 3) { // SHADE_DECAL_ALPHA
+			frag_clr.rgb = tex.rgb * tex.a + col.rgb * (1 - tex.a);
+			frag_clr.a = col.a;
+		} else if (shade_mode == 4) { // SHADE_MODULATE_ALPHA
+			frag_clr = tex * col;
+		}
+	} else {
+		frag_clr = col;
+	}
+	
+	if (offset_color == 1) {
+		frag_clr.rgb += var_offset_color.rgb;
+    }
+
+	if (alpha_test == 1) {
+		// punch through polys are always drawn with an alpha value of 1.0
+		frag_clr.a = 1.0f;
+	}
+
+	// coords.w is 1/clip.w aka the original 1/w passed to the TA,
+	// interpolated in screen space. this value is normally between [0,1],
+	// however, values very close to the near plane often raise to 10-100000
+
+	// unfortunately, there doesn't seem to exist a full 32-bit floating-point
+	// depth buffer. because of this, the depth value written out here must be
+	// normalized to [0,1] to satisfy OpenGL, which will then subsequently
+	// quantize it to a 24-bit integer
+
+	// if this value is normalized by (w - wmin) / (wmax - wmin), too much
+	// precision is ultimately lost in small w values by the time the value is
+	// written to the depth buffer. seeing that most values are between [0,1],
+	// with only a few outliers being > 1, writing out log2(w) / log2(wmax)
+	// works out well to preserve the precision in these smaller w values
+
+	// note, 2^17 was chosen as ~100000 was largest value i'd seen passed as
+	// the w component at the time this was written
+	float w = 1.0 / coords.w;
+	depth = log2(1.0 + w) / 17.0;
+};

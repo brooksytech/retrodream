@@ -1,0 +1,41 @@
+void main(
+	float3 attr_xyz,
+	float2 attr_texcoord,
+	float4 attr_color,
+	float4 attr_offset_color,
+	uniform float4 u_video_scale,
+	float4 out var_color : COLOR0,
+	float4 out var_offset_color : COLOR1,
+	float2 out var_texcoord : TEXCOORD0,
+	float4 out var_position : POSITION)
+{
+	var_color = attr_color;
+	var_offset_color = attr_offset_color;
+	var_texcoord = attr_texcoord;
+
+	// the z coordinate is actually 1/w, convert to w. note, there is no
+	// actual z coordinate provided to the ta, just this
+	float w = 1.0 / attr_xyz.z;
+
+	// if w is negative, this vertex will always fail the clip test which is
+	// defined as: -w <= z <= w
+	// however, since OpenGL tries to maintain connectivity when a polygon is
+	// clipped, a lot of junk vertices are generated. the best workaround so
+	// far is to force xyz=0 to avoid generating visible junk vertices
+	if (w < 0.0) {
+		var_position = float4(0.0, 0.0, 0.0, w);
+		return;
+	}
+
+	// scale x from [0,640] -> [-1,1] and y from [0,480] to [-1,1]
+	var_position.xy = attr_xyz.xy * u_video_scale.xz + u_video_scale.yw;
+
+	// since there isn't an actual z, set z = w to make the clip test always
+	// pass. because of this, after perspective division the fragment shader
+	// will always get a constant 1.0 for z, requiring it to explicitly set
+	// gl_FragDepth using the w component
+	var_position.zw = float2(w, w);
+
+	// cancel the perspective divide on the xy, they're already in ndc space
+	var_position.xy *= var_position.w;
+};
