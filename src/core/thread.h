@@ -1,7 +1,7 @@
 #ifndef THREAD_H
 #define THREAD_H
 
-#include "rthreads/rthreads.h"
+#include "../../../src/libretro-common/include/rthreads/rthreads.h"
 
 /*
  * threads
