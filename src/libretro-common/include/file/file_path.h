@@ -29,9 +29,9 @@
 #include <sys/types.h>
 
 #include <libretro.h>
-#include <retro_common_api.h>
+#include "../retro_common_api.h"
 
-#include <boolean.h>
+#include "../boolean.h"
 
 RETRO_BEGIN_DECLS
 
