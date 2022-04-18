@@ -26,15 +26,8 @@ option(BUILD_LIBRETRO "Build libretro core" ON)
 option(BUILD_TOOLS "Build tools" OFF)
 option(BUILD_TESTS "Build tests" OFF)
 
-if(WIN32 OR MINGW)
-  set(PLATFORM_WINDOWS TRUE)
-elseif(ANDROID)
-  set(PLATFORM_ANDROID TRUE)
-elseif(APPLE)
-  set(PLATFORM_DARWIN TRUE)
-elseif(UNIX)
-  set(PLATFORM_LINUX TRUE)
-endif()
+set(PLATFORM_LINUX TRUE)
+
 
 if("${CMAKE_C_COMPILER_ID}" STREQUAL "MSVC")
   set(COMPILER_MSVC TRUE)
@@ -44,11 +37,7 @@ elseif("${CMAKE_C_COMPILER_ID}" STREQUAL "GNU")
   set(COMPILER_GCC TRUE)
 endif()
 
-if(PLATFORM_ANDROID)
-  set(ARCH_A64 TRUE)
-else()
-  set(ARCH_X64 TRUE)
-endif()
+set(ARCH_A64 TRUE)
 
 if(BUILD_LIBRETRO)
   # building the libretro core requires PIC code for all object files
@@ -85,7 +74,7 @@ list(APPEND RELIB_DEFS HAVE_CONFIG_H)
 
 # capstone
 set(CAPSTONE_ARM_SUPPORT OFF CACHE BOOL "")
-set(CAPSTONE_ARM64_SUPPORT OFF CACHE BOOL "")
+set(CAPSTONE_ARM64_SUPPORT ON CACHE BOOL "")
 set(CAPSTONE_MIPS_SUPPORT OFF CACHE BOOL "")
 set(CAPSTONE_PPC_SUPPORT OFF CACHE BOOL "")
 set(CAPSTONE_SPARC_SUPPORT OFF CACHE BOOL "")
